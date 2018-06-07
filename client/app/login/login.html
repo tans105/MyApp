@@ -1,0 +1,22 @@
+
+<div class="left-panel">
+    <div class="menu-bar">
+        <p class="menu-items">Plans & Pricing</p>
+        <p class="menu-items">Passoword</p>
+    </div>
+
+</div>
+
+<div class="right-panel">
+    <div class="header-bar"></div>
+    <div ng-mouseover="modifySummary(card)" ng-repeat="card in data" class="card">
+        <div class="card-text" >
+            {{card.name}}:{{card.price}}
+        </div>
+    </div>
+    <div class="card-summary">
+        <div class="card-text">
+            {{selectedCard.summary}}
+        </div>
+    </div>
+</div>

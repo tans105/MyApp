@@ -1,0 +1,17 @@
+[
+	{
+		"name": "GOLD",
+		"price": "10$",
+		"summary": "I am Gold"
+	},
+	{
+		"name": "SILVER",
+		"price": "20$",
+		"summary": "I am Silver"
+	},
+	{
+		"name": "PLATINUM",
+		"price": "30$",
+		"summary": "I am Platinum"
+	}
+]
